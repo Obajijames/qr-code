@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.main{
+    background-color: white;
+    border-radius: 20px;
+    margin: 40px 50px 0 50px;
+    padding: 0 20px 30px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 300px;
+    height: 70vh;
+}
+img{
+    border-radius: 10px;
+    width: 250px;
+}
+.word1{
+    padding: 20px 0 20px;
+    text-align: center;
+}
+.word2{
+    text-align: center;
+    font-weight: lighter;
+    font-size: medium;
+    letter-spacing: 0.5px;
+    text-justify: distribute-all-lines;
+}
+@media screen and (max-width:768px) {
+    .container{
+        height: 80vh;
+        display: flex;
+        justify-content: center;
+        background-color: black;
+        font-family: 'Times New Roman', Times, serif;
+    
+    }
+    .main{
+        background-color: white;
+        border-radius: 40px;
+        margin: 15px 0px 15px 0px;
+        padding: 0 20px 0 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 400px;
+        height: 75vh;
+    }
+    img{
+        border-radius: 20px;
+        width: 300px;
+    }
+    .word1{
+        padding: 20px 0 20px;
+        text-align: center;
+        font-size: 3vh;
+    }
+    .word2{
+        text-align: center;
+        font-weight: lighter;
+        font-size: 3vh;
+        letter-spacing: 0;
+    }
+}
+@media screen and (max-width: 576px) {
+    .container{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        background-color: black;
+        font-family: 'Times New Roman', Times, serif;
+    
+    }
+    .main{
+        background-color: white;
+        border-radius: 20px;
+        margin: 40px 0px 0 0px;
+        padding: 10px 20px 30px 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 280px;
+        height: 80vh;
+    }
+    img{
+        border-radius: 20px;
+        width: 210px;
+    }
+}
